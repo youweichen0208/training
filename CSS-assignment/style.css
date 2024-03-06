@@ -64,10 +64,118 @@
 }
 
 .problem4-header {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 10vh;
+  height: 30vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .problem4-header img {
   width: 100%;
-  height: 10vb;
+  height: 20vh;
+}
+
+.problem4-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: beige;
+}
+.problem4-header-container button {
+  width: 15vw;
+  height: 10vh;
+  border: 1px solid white;
+  margin-right: 1px;
+  font-weight: bold;
+  color: gray;
+}
+
+.problem4-header-container button:hover {
+  background-color: rgb(112, 110, 110);
+  cursor: pointer;
+}
+
+.problem4-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.welcome-to-home-page h2 {
+  color: rgb(18, 231, 18);
+}
+
+.free-products h2 {
+  color: rgb(18, 231, 18);
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-to-home-page {
+  height: 25vh;
+  width: 50vw;
+  border: 1px solid rgb(196, 192, 192);
+  border-radius: 10px;
+  margin-top: 3vh;
+}
+
+.free-products {
+  width: 50vw;
+  height: 60vh;
+  border: 1px solid rgb(196, 192, 192);
+  border-radius: 10px;
+  margin-top: 2vh;
+}
+
+.news {
+  margin-top: 3vh;
+  font-size: 12px;
+  width: 20vw;
+  height: 35vh;
+  border: 1px solid rgb(196, 192, 192);
+  border-radius: 10px;
+}
+
+.messages {
+  margin-top: 3vh;
+  font-size: 12px;
+  width: 20vw;
+  height: 35vh;
+  border: 1px solid rgb(196, 192, 192);
+  border-radius: 10px;
+}
+
+.news h1 {
+  color: rgb(18, 231, 18);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+.item {
+  display: flex;
+  margin-left: 1rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.messages h1 {
+  color: rgb(18, 231, 18);
+}
+
+.problem4-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(109, 201, 18);
+  height: 15vh;
+  margin-top: 3vh;
+  width: 100%;
 }
