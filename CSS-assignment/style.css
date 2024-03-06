@@ -62,3 +62,12 @@
 .paging-bar ul li a:hover {
   background-color: orangered;
 }
+
+.problem4-header {
+  width: 100%;
+  height: 10vh;
+}
+.problem4-header img {
+  width: 100%;
+  height: 10vb;
+}
