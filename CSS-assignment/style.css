@@ -1,0 +1,64 @@
+.problem3-body {
+  margin: 0;
+  background-color: rgba(164, 161, 158, 0.435);
+}
+
+.problem3-body h5 {
+  margin-left: 15vw;
+  font-size: 3rem;
+  color: blue;
+}
+.problem3-articles h3 {
+  color: darkgreen;
+}
+.problem3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 90vh;
+  width: 100vw;
+  margin-top: -8rem;
+}
+.dates {
+  margin-left: 15vw;
+}
+.problem3-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 46vh;
+  width: 20vw;
+  border: 1px solid white;
+  background-color: white;
+  margin-top: -10rem;
+}
+
+.problem3-articles img {
+  width: 10vw;
+  height: 10vh;
+}
+
+.paging-bar ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 12vw;
+  margin-top: -10rem;
+}
+
+.paging-bar ul li a {
+  margin: 0 5px;
+  background-color: skyblue;
+}
+
+.paging-bar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.paging-bar ul li a:hover {
+  background-color: orangered;
+}
